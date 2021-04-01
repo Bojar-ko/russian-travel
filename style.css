@@ -3,4 +3,106 @@
 .page {
     background-color: #2A2C2F;
     font-family: 'inter', 'Arial', 'Helvetica', sans-serif;
+    color: #FFFFFF;
+}
+}
+
+.header {
+    max-width: 928px;
+    margin: auto;
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header__lang-links {
+    min-width: 75px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    padding-bottom: 6px;
+}
+/* здесь пустой класс был**/
+
+.header__lang-link_lang_ru {
+    text-decoration: underline;
+}
+
+.header__lang-link_lang_en {
+    text-decoration: none;
+}
+
+.lead {
+    max-width: 928px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 48px;
+}
+
+.lead__title {
+    max-width: 720px;
+    font-size: 96px;
+    line-height: 100px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+}
+
+.lead__subtitle {
+    max-width: 640px;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding-top: 32px;
+    padding-bottom: 56px;
+}
+
+.lead__image {
+    width: 100%;
+}
+
+.lead__caption {
+    font-size: 10px;
+    line-height: 1.4;
+    font-weight: 400;
+    text-transform: uppercase;
+    align-self: flex-start;
+    margin: 0;
+    padding-top: 8px;
+}
+
+.intro {
+    max-width: 690px;
+    padding-top: 92px;
+}
+
+.intro__title {
+    font-size: 54px;
+    line-height: 58px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.intro__text {
+    font-size: 16px;
+    line-height: 1.63;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 33px;
+}
+
+.intro__list {
+    list-style: none;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+    padding-left: 0;
 }
