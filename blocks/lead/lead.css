@@ -1,0 +1,22 @@
+.lead {
+    font-family: 'inter', 'Arial', 'Helvetica', sans-serif;
+    max-width: 984px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 64px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+        padding-top: 56px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        padding-top: 48px;
+    }
+}

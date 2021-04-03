@@ -1,0 +1,25 @@
+.place__paragraph {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    gap: 26px;
+}
+
+@media screen and (max-width: 1023px) {
+    .place__paragraph {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraph {
+        width: 90%;
+        grid-row: 4/5;
+        grid-column: 1/2;
+        display: grid;
+        grid-template-rows: repeat(2, minmax(min-content, max-content));
+        gap: 25px;
+        margin: auto;
+    }
+}
