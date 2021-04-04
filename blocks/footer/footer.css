@@ -2,7 +2,16 @@
     font-family: 'inter', 'Arial', 'Helvetica', sans-serif;
     display: flex;
     justify-content: space-between;
-    padding: 0 48px 24px;
+    max-width: 1184px;
+    margin: auto;
+    /*padding: 0 48px 24px;*/
+    padding-bottom: 24px;
+}
+
+@media screen and (max-width: 1279px) {
+    .footer {
+        max-width: 928px;
+    }
 }
 
 @media screen and (max-width: 1023px) {

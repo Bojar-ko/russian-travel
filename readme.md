@@ -4,6 +4,6 @@
 
 ## Сам проект по ссылке
 
-[]
+[https://bojar-ko.github.io/russian-travel/]
 
 ## Автор Кирилл Боярченков
