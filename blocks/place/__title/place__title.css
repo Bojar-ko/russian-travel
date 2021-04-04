@@ -16,12 +16,9 @@
 
 @media screen and (max-width: 767px) {
     .place__title {
-        grid-row: 1/2;
-        grid-column: 1/2;
         width: 90%;
         margin: auto;
         font-size: 10vmin;
         line-height: 1.09;
-        font-weight: 900;
     }
 }

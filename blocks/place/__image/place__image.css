@@ -8,6 +8,5 @@
     .place__image {
         grid-row: 3/4;
         grid-column: 1/2;
-        width: 100%;
     }
 }

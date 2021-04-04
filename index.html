@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
-    <title> russia-travel</title>
+    <title>путешествие по России</title>
 </head>
 <body>
   <div class="page">
     <header class="header">
         <img class="logo" src="./image/header-logo.svg" alt="Россия">
-        <div class="header__lang-links">
-            <a class="header__lang-link header__lang-link_decoration" target="_self" href="#">Ru</a>
-            <a class="header__lang-link" target="_self" href="#">En</a>
-        </div>
+        <ul class="header__lang-links">
+            <li class="header__links-item">
+                <a class="header__lang-link header__lang-link_decoration" target="_self" href="#">Ru</a>
+            </li>
+            <li class="header__links-item">
+                <a class="header__lang-link" target="_self" href="#">En</a>
+            </li>
+        </ul>
     </header>
 
     <main>
@@ -34,11 +38,11 @@
                 троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые
                 интересные места, достойные вашего отпуска.</p>
             <ul class="intro__list">
-                <li>Часовых поясов 11</li>
-                <li>Объектов природного наследия ЮНЕСКО 12</li>
-                <li>Объектов культурного наследия ЮНЕСКО 16</li>
-                <li>Природных заповедников 105</li>
-                <li>Аэропортов 241</li>
+                <li>Часовых поясов <span class="intro__span-accent">11</span></li>
+                <li>Объектов природного наследия ЮНЕСКО <span class="intro__span-accent">12</span></li>
+                <li>Объектов культурного наследия ЮНЕСКО <span class="intro__span-accent">16</span></li>
+                <li>Природных заповедников <span class="intro__span-accent">105</span></li>
+                <li>Аэропортов <span class="intro__span-accent">241</span></li>
             </ul>
         </section>
 
@@ -50,7 +54,7 @@
             <img class="photo-grid__item" alt="прозрачный лёд" src="./image/photo-grid-arisa.jpg">
             <img class="photo-grid__item" alt="виды Байкала" src="./image/photo-grid-baikal.jpg">
             <img class="photo-grid__item" alt="Эльбрус" src="./image/photo-grid-elbrus.jpg">
-            <img class="photo-grid__item" alt="красивое фото" src="./image/photo-grid-kondratiev.jpg">
+            <img class="photo-grid__item" alt="дорожный знак на фоне волнорезов" src="./image/photo-grid-kondratiev.jpg">
             <img class="photo-grid__item" alt="виды Камчатки" src="./image/photo-grid-kamchatka-1.jpg">
             <img class="photo-grid__item" alt="виды Камчатки" src="./image/photo-grid-kamchatka-2.jpg">
             <img class="photo-grid__item" alt="виды Байкала" src="./image/photo-grid-baikal-2.jpg">
@@ -60,7 +64,7 @@
         <section class="places">
             <div class="place">
                 <h2 class="place__title">Куршская коса</h2>
-                <img class="place__image" src="./image/place-kosa.jpg" alt="фото">
+                <img class="place__image" src="./image/place-kosa.jpg" alt="берег Куршского залива">
                 <div class="place__website">
                     <p class="place__url-hading">URL</p>
                     <a href="http://park-kosa.ru" target="_self" class="place__link">park-kosa.ru</a>
